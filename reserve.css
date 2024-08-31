@@ -71,3 +71,49 @@ label {
     font-weight: bold;
 
 }
+
+
+@media screen and (min-width: 340px) and (max-width: 940px) {
+
+    h1 {
+        text-align: center;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    form {
+        background-color: white;
+        border: solid 1px #ffffff;
+        width: 50%;
+        height: auto;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: justify;
+        
+    }
+
+    input[type="submit"], input[type="reset"] {
+        width: 100px;
+    }
+
+    input[type="reset"] {
+        margin-right: 10px;
+    }
+
+    label {
+        font-size: 12px;
+        padding: 5px;
+        margin: 10px;
+        font-weight: bold;
+    
+    }
+
+    div {
+        font-size: 12px;
+        display: inline;
+        margin: 2px;
+    }
+
+}
